@@ -17,6 +17,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 
 html {
     font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
@@ -112,23 +113,34 @@ body {
 .contact-container {
     background: #233233;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contact-head {
+    color: #F1F1F1;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .contact-content {
     color:#F1F1F1;
+    font-size: 18px;
+    font-family: 'Roboto Condensed' sans-serif;
     width: 100%;
     max-width: 1000px;
-    text-decoration: none;
-    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 48px 48px 12px;
 
 }
 
-.contact-content a:link {
-    color:#F1F1F1;
-}
+
 
 
 
@@ -153,6 +165,7 @@ body {
 ========================================================================== */
 a {
     text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 a:visited {
